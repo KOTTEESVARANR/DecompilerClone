@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decompiler Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Decompiler Clone</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <label for="fileUpload">Upload File to Decompile:</label>
+            <input type="file" id="fileUpload" name="file" required>
+            <button type="submit">Decompile</button>
+        </form>
+        <div id="output" style="display: none;">
+            <h3>Decompilation Result</h3>
+            <a id="downloadLink" href="#" download>Download Decompiled File</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
